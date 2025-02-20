@@ -17,7 +17,7 @@ public class Interview {
                 while (m >= 1) {
 
                     Scanner sc = new Scanner(System.in);
-                    System.out.println("Enter the number to find the factorial : ");
+                    System.out.println("Enter the number of find the factorial : ");
                     int x = sc.nextInt();
                     StringBuilder sb = new StringBuilder();
                     p=1 ;
@@ -33,6 +33,7 @@ public class Interview {
                 }
             } catch (Exception e){
                     System.out.println(e);
+
             }
         }
 }
