@@ -1,13 +1,13 @@
-package com.example.Autharizang.java;
+package com.example.Autharizang.java_Interview;
 
 import java.util.Scanner;
 
-public class Interview {
+public class factorial_Number {
     private int q; private int p ; private int m =1 ;
 
 
     public static void main(String[] args) {
-        Interview number = new Interview();
+        factorial_Number number = new factorial_Number();
         number.input();
     }
 
